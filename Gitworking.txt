@@ -1,0 +1,23 @@
+We will be learning version control, how to clone repositories, how to frok make pull requests and merge repositories and a whole
+bunch of really exciting things.
+
+Question :- What is version control ?
+Answer :- Let's say that I create a new code file and I write a few lines in it, Now I decide to put it under version contriol Git,
+          and let;s say that I call this save points as number 1. Now this is my first version. Later on as I progress I write maybe a 
+          few more code of line of code and at this point I decide to make another save point and I call this my second version.
+          So further down the line I accidentally screw up my entire code file and it's irreparable and I get to the point where i would
+          rather burn my entire code file rather than having to try and fix it.
+
+          You do get into these situations because very ften your code is interlinked and each class depends on another and sometimes
+          you can screw up in a way where you know all hope is lost and I simply just want to rollback to the last save point. I can do that using Git.
+
+Here we will simplify some terms to understand what's going on
+Question :- What is staging area ?
+Staging Area :- Here, In order to start tracking the changes of my files for example chapter1.txt then I need to add this file to what's called a 
+                staging Area.
+
+                It is basically a intermediate place where you can pick and choose which files inside your working directory that
+                you want to commit. So to see what's currently inside your staging area, you can use the git status command and It shows
+                you that there are untracked files which will be shown in red and this is something that simply inside          
+
+                command which you have to write :- git status
