@@ -32,3 +32,31 @@ Staging Area :- Here, In order to start tracking the changes of my files for exa
                 if you want to check what changes we have made you can also see that
                 $ git log
 
+                (It will give you the time and date and It also has a hash uniquely identifies this particular commit and then 
+                right at the end you see this commit message of what this save point was all about.)
+
+So what is happening, we will try to know
+-> So we created a file in our working directory inside our Gitworking directory.
+-> So the working directory is the folder or the directory where you initialize your Git repository
+-> when we said git init , we did that inside the Gitworking directory, so that becomes working directory.
+-> And from now on Git is going to try and track the changes that it sees between the working directory and the local repository.
+-> then we used git add to push it in staging area ( Now the reason why there is this intermediate staging area because you might wonder
+   why not just go from the woring directory straight to the repository, why do we need extra step,
+   
+   At some point you don't want to add all the files, so staging area is a good place to try and figure out what are the things
+   that you want Git to ignore and what are the things that you want to be tracked)
+-> next step is to commit by using "git commit" command. so now our file is inside our local repository. so that .git version
+   is given a name through the commit message, so that means that even if we have messed up our file, we can still use the last version
+   that's under version control.
+
+   we use this command to rollback or to revert back to the last position in our local repository which is 
+   "$ git checkout".
+
+-> Suppose my book will be best seller, due to some issue, all content get changed so how we can go back.
+   because we have git we dont have to worry about. I can revert the changes that I have made locally in the working directory.
+   so we have txt file that have not yet been committed or added to the staging area. so if we wanted to we can actually revert
+   this back to it's previous glory.
+
+   But before that we can use git diff to check tyhe difference between the current version and last saaved version
+
+
