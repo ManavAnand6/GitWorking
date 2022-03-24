@@ -20,4 +20,15 @@ Staging Area :- Here, In order to start tracking the changes of my files for exa
                 you want to commit. So to see what's currently inside your staging area, you can use the git status command and It shows
                 you that there are untracked files which will be shown in red and this is something that simply inside          
 
-                command which you have to write :- git status
+                command which you have to write :- git status (check 1.jpg)
+
+                In order to add it to the stging area and to start tracking changes in it, then we have to use the command 
+                $ git add chapter1.txt 
+
+                or 
+                To add multiple file use this
+                $ git add .
+
+                if you want to check what changes we have made you can also see that
+                $ git log
+
