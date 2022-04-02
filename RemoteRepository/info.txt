@@ -1,0 +1,28 @@
+Here, We will learn about Remote repository.
+Basically we are going to use github, Searching this on google what we have to do
+
+Step1 :- First create a account if already created then go to navbar checkoit the "+" option then go to
+         new repository.
+         There you can create new repository then you can give the name then when you click the create button, The repository
+         will get created. 
+
+         They will give you the steps to do further setting or to send your local repository to remote repository.
+
+Step2 :- The commands which we are going to use is
+         $ git remote add origin https://github.com/ManavAnand6/GitWorkingg.git
+
+         Question :- What this command mean ?
+         Answer :- "origin" is the name of your remote and you can theoritically call it anything you want.
+                   (Recommended keep the name origin)
+
+                   then add the URL of our remote repository.
+
+Step3 :- Now we can push our repository to remote one whose name is origin
+         Git command :- $ git push -u origin master
+         
+         Meaning :- It will push the local repository to remote repository using -u flag which basically links up
+                    your local repository and remote repository and then we going pust it t remote name origin, we going 
+                    to push to the branch named "master".
+
+                    "master" branch basically a default branch or the main branch.
+
